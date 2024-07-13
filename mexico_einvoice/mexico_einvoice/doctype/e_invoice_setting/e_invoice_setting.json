@@ -7,11 +7,19 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "e_mail"
   "secret_key",
   "generate_e_invoice",
   "cancel_e_invoice"
  ],
  "fields": [
+   {
+   "fieldname": "e_mail",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
   {
    "fieldname": "secret_key",
    "fieldtype": "Password",
